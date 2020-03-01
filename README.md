@@ -4,10 +4,15 @@ Interactive visualization of particles collected on substrate using processed sc
 
 Prototype developed for product control in a project to provide synthetic particles on substrates.
 
-## Application Scenario
+## Background
 
-Substrate specimens were generated within a quality controlled process. The final product ready to be shipped to the customer was characterized by scanning the substrate surface with an electron microscope. The obtained imaging data is processed and an interactive visualization is generated which allows easy inspection by the customer. The interactivity empowers the customer to verify the quality with his own means without the need to undertake extensive efforts.
-
+Substrate samples were to be produced within a quality controlled process.
+The samples ready to be shipped had been characterized by scanning the
+substrate surface with an electron microscope. The obtained imaging data is
+processed and an interactive visualization is generated which allows easy
+inspection by the customer. The interactivity empowers the customer to verify
+the quality with his own means without the need to undertake extensive
+efforts.
 ## Data Processing & Generating the Visualization
 
 * The python script [process_PAsearch.py](process_PAsearch.py) processes the raw data of a given substrate.
@@ -20,11 +25,15 @@ Substrate specimens were generated within a quality controlled process. The fina
 
 The interactive visualization looks like this:
 
+![screenshot Particle Browser](./img/screenshot.png)
+
 Each particle is visualized by a dot. The dot-size is proportional to the
-diameter of the particle. The color indicates with the uranium content.
+diameter of the particle. The color indicates with the weight content of the
+element of interest.
 
 A box or lasso selection tool allows to select a group of particles by their properties *location on substrate* or *particle diameter* and *circularity*.
 
+Check out for yourself [here](./Example/DemoSample.html).
 
 ## Authors
 
@@ -35,8 +44,9 @@ A box or lasso selection tool allows to select a group of particles by their pro
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
-
-<br />Image Data is licensed under a <a rel="license"
-href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img
-alt="Creative Commons License" style="border-width:0"
-src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
+Image data is public domain.
+<p xmlns:dct="http://purl.org/dc/terms/" xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+  <a rel="license"
+     href="http://creativecommons.org/publicdomain/zero/1.0/">
+    <img src="https://licensebuttons.net/p/zero/1.0/88x31.png" style="border-style: none;" alt="CC0" />
+  </a></p>
