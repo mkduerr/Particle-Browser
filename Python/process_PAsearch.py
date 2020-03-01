@@ -191,8 +191,8 @@ def process_fields(df_field, directory, ext, edax_pasearch=True):
 
     # Create list of images to be loaded and cropped from stub data
     fields = df_field.Field
-    img_list = [directory + '/fields'
-                '/fld' + '{:0>4d}'.format(int(field_no)) +
+    img_list = [directory + '/fields/' +
+                'fld' + '{:0>4d}'.format(int(field_no)) +
                 ext for field_no in fields]
     coll = io.ImageCollection(img_list, conserve_memory=False)
 
@@ -266,16 +266,8 @@ def walk_stubdir(path):
                 if (file.endswith('.csv') & file.startswith('IJ')):
                     IJ_PAsearch.append(os.path.join(root, file))
 
-    # Extract the extension of the image
-    for root, dirs, files in os.walk(os.path.join(stub_dir[0], 'fld0001')):
-        if 'search.png' in files:
-            extension.append('.png')
-
-        elif 'search.bmp' in files:
-            extension.append('.bmp')
-
-        elif 'search.tif' in files:
-            extension.append('.tif')
+    # file extension
+    extension = '.png'
 
     datalocation = dict([('stub_dir', stub_dir),
                          ('EDAX_PAsearch', EDAX_PAsearch),
@@ -343,7 +335,7 @@ if __name__ == "__main__":
     root_dir = os.getcwd()
 
     # Directory containing the stub data
-    directory = 'DemoData'
+    directory = 'DemoData/'
 
     # Create the full path
     wdir = os.path.join(root_dir, directory)
