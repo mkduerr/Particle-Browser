@@ -1,0 +1,9 @@
+# Position of markers in mm
+#
+# Comment lines start with #
+#
+Type,stageX,stageY
+I,-4.287,-3.491
+T,-1.004,5.786
+X,4.495,-2.139
+C, 0.000,0.000

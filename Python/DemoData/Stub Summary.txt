@@ -1,0 +1,27 @@
+ Stub Summary:   C:\SharedData\Ronald\2017-02-28\PA\stub01\Stub Summary.txt
+ Microscope:             Quanta
+ Mag:                    600
+ Acc. Voltage:           10.0 kV
+ Pixel size:             0.23 um 
+ Particle size filter:   0.5 - 100.0 um 
+ Particle scan type:     Centroid
+ Prescan CPS:            None
+ Takeoff angle:          37.4
+ Amplifier time:          3.2
+
+ Data type:              ZAF Elem Wt%
+ Element list:           C,O,Al,Si,U
+ No. of fields per stub: 324
+ Field size (mm):        0.474x0.370
+ Stub Label                        StageX  StageY 
+   1  SG170216_06                 -0.066   -0.809   
+
+
+ Starting Time:      16:09   02-28-2017
+ Ending Time:        01:03   03-01-2017
+ Video thresholds:          23-255
+ Particles Analyzed:         402 
+ Particles Counted:         402 
+ Area covered (sq.mm):      56.86
+ Stub % covered:            9.10
+
