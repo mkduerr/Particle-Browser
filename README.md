@@ -19,7 +19,9 @@ efforts.
 
 * The raw data is in a directory, like the directory [DemoData](Python/DemoData).
 
-* The python script [PB_GeneratePage](Python/PB_GeneratePage.py) generates a webpage with three interactive plots as shown in Figure 1.
+* The python script [create_bokehplot.py](Python/create_bokehplot.py) to render the bokeh interactive plots.
+
+* The python script [PB_GeneratePage.py](Python/PB_GeneratePage.py) generates a html.
 
 ## Interactive Visualization
 
