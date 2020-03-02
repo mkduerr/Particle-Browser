@@ -256,8 +256,8 @@ def walk_stubdir(path):
             stub_dir.append(root)
 
             # Check is subdirectory 'cropped' exists, unless create
-            if 'cropped' not in dirs:
-                os.makedirs(os.path.join(root, 'cropped'))
+            if 'thumbnails' not in dirs:
+                os.makedirs(os.path.join(root, 'thumbnails'))
 
             # Look for the .csv files containing the stub info
             for file in files:

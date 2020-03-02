@@ -60,9 +60,8 @@ def makelayout(PADataFrame, MRKDataFrame, imgs):
         var end = cb_obj.end;
         data['%s'] = [start + (end - start) / 2];
         data['%s'] = [end - start];
-        source.trigger('change');
+        source.change.emit();
     """
-
     #      TOP LEFT PLOT
 
     top_left = figure(tools=TOOLS,
