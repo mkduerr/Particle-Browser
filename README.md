@@ -15,11 +15,11 @@ the quality with his own means without the need to undertake extensive
 efforts.
 ## Data Processing & Generating the Visualization
 
-* The python script [process_PAsearch.py](process_PAsearch.py) processes the raw data of a given substrate.
+* The python script [process_PAsearch.py](Python/process_PAsearch.py) processes the raw data of a given substrate.
 
-* The raw data is in a directory, like the directory [DemoData](/DemoData).
+* The raw data is in a directory, like the directory [DemoData](Python/DemoData).
 
-* The python script [PB_GeneratePage](PB_GeneratePage.py) generates a webpage with three interactive plots as shown in Figure 1.
+* The python script [PB_GeneratePage](Python/PB_GeneratePage.py) generates a webpage with three interactive plots as shown in Figure 1.
 
 ## Interactive Visualization
 
