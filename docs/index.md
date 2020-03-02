@@ -6,4 +6,4 @@ characterization with a scanning electron microscope. Synthetic mono
 disperse uranium particles had been deposited on a substrate.
 
 Created with [The Bokeh Visualization Library](https://bokeh.org). Check my [github
-repository](/README.md).
+repository](https://github.com/mkduerr/Particle-Browser).
