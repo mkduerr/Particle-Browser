@@ -37,7 +37,7 @@ element of interest.
 A box or lasso selection tool allows to select a group of particles by their
 properties *location on substrate* or *particle diameter* and *circularity*.
 
-Check out for yourself [here](docs/index.md).
+Check out for yourself [here](https://mkduerr.github.io/Particle-Browser/).
 
 ## Authors
 
